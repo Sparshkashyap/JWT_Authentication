@@ -35,7 +35,7 @@ const Login = () => {
 
             try{
 
-                const url = "mongodb+srv://sparshkashyap655_db_user:OJeMny4BpyualqyH@cluster0.2lop80s.mongodb.net/?appName=Cluster0";
+                const url = "http://localhost:4000/auth/login";
                 const response = await fetch(url,{
                     method : "POST",
                     headers: {

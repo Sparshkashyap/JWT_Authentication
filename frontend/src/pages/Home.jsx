@@ -32,7 +32,7 @@ const Home = () => {
         const token = localStorage.getItem("token");
         try{
 
-            const url = "mongodb+srv://sparshkashyap655_db_user:OJeMny4BpyualqyH@cluster0.2lop80s.mongodb.net/?appName=Cluster0";
+            const url = "http://localhost:4000/products";
             const headers = {
 
                 headers :{
