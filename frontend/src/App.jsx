@@ -3,7 +3,7 @@ import Home from "./pages/Home";
 import Login from "./pages/Login";
 import Signup from "./pages/Signup";
 import './App.css';
-import RefreshHandler from "./pages/Refreshhandler";
+import RefreshHandler from "./pages/RefreshHandler";
 import { useState } from "react";
 
 const App = () =>{
