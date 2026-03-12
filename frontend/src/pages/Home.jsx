@@ -32,7 +32,7 @@ const Home = () => {
         const token = localStorage.getItem("token");
         try{
 
-            const url = "http://localhost:4000/products";
+            const url = "https://jwt-authentication-indol.vercel.app/products";
             const headers = {
 
                 headers :{

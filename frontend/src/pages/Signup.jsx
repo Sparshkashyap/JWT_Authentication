@@ -36,7 +36,7 @@ const Signup = () => {
 
             try{
 
-                const url = "http://localhost:4000/auth/signup";
+                const url = "https://jwt-authentication-indol.vercel.app/auth/signup";
                 const response = await fetch(url,{
                     method : "POST",
                     headers: {

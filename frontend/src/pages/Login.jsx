@@ -35,7 +35,7 @@ const Login = () => {
 
             try{
 
-                const url = "http://localhost:4000/auth/login";
+                const url = "https://jwt-authentication-indol.vercel.app/auth/login";
                 const response = await fetch(url,{
                     method : "POST",
                     headers: {
