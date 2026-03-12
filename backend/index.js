@@ -11,16 +11,24 @@ require("./Models/db");
 
 const port = process.env.PORT || 8080;
 
+
+app.use(bodyParser.json());
+app.use(cors());
+
+
+
 app.get("/ping" , (req,res) =>{
 
     res.send("pong");
 });
 
-app.use(bodyParser.json());
-app.use(cors());
+
 app.use("/auth" , AuthRouter);
 app.use("/products",ProductRouter);
 
-app.listen(port ,()=>{
-    console.log(`Server is running on port ${port}`);
-})
+// app.listen(port ,()=>{
+//     console.log(`Server is running on port ${port}`);
+// })
+
+
+module.exports = app;
