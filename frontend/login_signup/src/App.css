@@ -1,0 +1,121 @@
+/* RESET */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* FONT */
+body {
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.signup{
+    margin-bottom: 2rem;
+}
+
+/* PAGE BACKGROUND */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+
+
+
+
+/* FORM */
+.form div{
+  margin-bottom:1rem;
+}
+
+label{
+  display:block;
+  font-size:0.9rem;
+  margin-bottom:0.4rem;
+  color:#333;
+}
+
+/* INPUT */
+input{
+  width:100%;
+  padding:0.75rem;
+  border-radius:8px;
+  border:1px solid #ccc;
+
+  font-size:0.95rem;
+
+  transition: all 0.25s ease;
+}
+
+/* INPUT FOCUS ANIMATION */
+input:focus{
+  outline:none;
+  border-color:#4facfe;
+  box-shadow:0 0 0 3px rgba(79,172,254,0.2);
+  transform:scale(1.02);
+}
+
+.container{
+  max-width:400px;
+  width:100%;
+  padding:2rem;
+  border-radius:13px;
+  background:white;
+  box-shadow:0 6px 29px rgba(0,0,0,0.1);
+}
+
+/* BUTTON */
+button{
+  width:100%;
+  margin-top:1rem;
+  padding:0.75rem;
+
+  border:none;
+  border-radius:8px;
+
+  background:#4facfe;
+  color:white;
+
+  font-size:1rem;
+  font-weight:600;
+
+  cursor:pointer;
+
+  transition: all 0.25s ease;
+}
+
+/* BUTTON HOVER */
+button:hover{
+  transform: translateY(-2px);
+  box-shadow:0 8px 20px rgba(0,0,0,0.2);
+  background:#3b92ff;
+}
+
+/* BUTTON CLICK */
+button:active{
+  transform:scale(0.97);
+}
+
+/* LOGIN LINK */
+span{
+  display:block;
+  margin-top:1rem;
+  text-align:center;
+  font-size:0.9rem;
+}
+
+span a{
+  margin-left:5px;
+  color:#0077ff;
+  text-decoration:none;
+  font-weight:600;
+}
+
+span a:hover{
+  text-decoration:underline;
+}
